@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="618033dd-a576-44b2-a9cd-394c4be459a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Attraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/CandyflossStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/CandyflossStall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/IceCreamStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/IceCreamStall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/Stall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/stalls/TobaccoStall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stalls/TobaccoStall.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/Dodgems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/Dodgems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/attractions/RollerCoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/attractions/RollerCoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/attractions/DodgemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractions/DodgemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/attractions/RollercoasterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/attractions/RollercoasterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +49,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlaygroundTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DodgemTest.payTheRightPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ThemeParkStartPoint" />
       <extension name="coverage">
         <pattern>
@@ -60,8 +58,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="attractions" />
-      <option name="MAIN_CLASS_NAME" value="attractions.PlaygroundTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="attractions.DodgemTest" />
+      <option name="METHOD_NAME" value="payTheRightPrice" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -77,6 +76,22 @@
       <option name="PACKAGE_NAME" value="attractions" />
       <option name="MAIN_CLASS_NAME" value="attractions.PlaygroundTest" />
       <option name="METHOD_NAME" value="checkAge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RollercoasterTest.payTheRightPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ThemeParkStartPoint" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="attractions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="attractions" />
+      <option name="MAIN_CLASS_NAME" value="attractions.RollercoasterTest" />
+      <option name="METHOD_NAME" value="payTheRightPrice" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -101,9 +116,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.All in ThemeParkStartPoint" />
+        <item itemvalue="JUnit.DodgemTest.payTheRightPrice" />
+        <item itemvalue="JUnit.RollercoasterTest.payTheRightPrice" />
         <item itemvalue="JUnit.TobaccoStallTest.checkAge" />
         <item itemvalue="JUnit.PlaygroundTest.checkAge" />
-        <item itemvalue="JUnit.PlaygroundTest" />
       </list>
     </recent_temporary>
   </component>
@@ -121,25 +137,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1585680691310">
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser" timestamp="1585681812002">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1585680691310" />
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1585680980296">
+    <state x="453" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1280.800@0.0.1280.800" timestamp="1585681812002" />
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom" timestamp="1585682359396">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585680980296" />
-    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1585680980294">
+    <state width="1238" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1585682359396" />
+    <state width="1238" height="212" key="GridCell.Tab.0.center" timestamp="1585682359395">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585680980294" />
-    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1585680980293">
+    <state width="1238" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1585682359395" />
+    <state width="1238" height="212" key="GridCell.Tab.0.left" timestamp="1585682359394">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585680980293" />
-    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1585680980295">
+    <state width="1238" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1585682359394" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right" timestamp="1585682359395">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585680980295" />
+    <state width="1238" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1585682359395" />
   </component>
 </project>
