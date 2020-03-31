@@ -26,4 +26,10 @@ public class ThemeParkTest {
         themePark.addThingsToVisit(candyflossStall);
         assertEquals(2, themePark.countThingsToVisit());
     }
+
+    @Test
+    public void hasReviewedAttractions(){
+        themePark.getAllReviewed();
+        assertEquals(2, themePark.countReviews() );
+    }
 }
