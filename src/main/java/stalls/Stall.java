@@ -1,8 +1,9 @@
 package stalls;
 
 import behaviours.IReviewed;
+import behaviours.IThingsToVisit;
 
-public abstract class Stall implements IReviewed {
+public abstract class Stall implements IReviewed, IThingsToVisit {
 
     private String name;
     private String ownerName;
